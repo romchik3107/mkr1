@@ -15,11 +15,11 @@
   <ion-card>
     <ion-card-content>
       <ion-item>
-        <ion-label position="floating">Кількість птахів які вміють літати та плавати</ion-label>
+        <ion-label position="floating">Кількість птахів які вміють літати та плавати(утки)</ion-label>
         <ion-input type="number" id="a" value="1" #Inputa></ion-input>
       </ion-item>
       <ion-item>
-        <ion-label position="floating">Друге число</ion-label>
+        <ion-label position="floating">Кількість птахів які лише плавають(пінгвіни)</ion-label>
         <ion-input type="number" id="b" value="2" #Inputb></ion-input>
       </ion-item>
       <ion-item>
@@ -28,16 +28,16 @@
       </ion-item>
       <ion-button expand="block" (click)="ras(Inputa.value,Inputb.value,Inputc.value)">Розрахунок</ion-button>
       <ion-item>
-        <p>Для пташок які вміють літати та плавати треба {{d}} м<sup>2</sup> на суші та {{dd}} м<sup>2</sup></p>
+        <p>Площа для пташок які вміють літати та плавати: {{d}} м<sup>2</sup> на суші та {{dd}} м<sup>2</sup> на воді</p>
       </ion-item>
       <ion-item>
-        <p>Для пташок які вміють тільки плавати {{d}} м<sup>2</sup> на суші та м<sup>2</sup></p>
+        <p>Площа для пташок які лише плавають: {{v}} м<sup>2</sup> на воді</p>
       </ion-item>
       <ion-item>
-        <p>Для пташок які вміють літати та плавати треба {{d}} м<sup>2</sup> на суші та м<sup>2</sup></p>
+        <p>Площа для пташок які вміють літати та плавати: {{m}} м<sup>2</sup> на суші та {{mm}} м<sup>2</sup> на воді</p>
       </ion-item>
       <ion-item>
-        <p>Для пташок які вміють літати та плавати треба {{sum}} м<sup>2</sup> на суші та {{ssum}} м<sup>2</sup></p>
+        <p>Сумарна плоха для всіх вальерів {{sum}} м<sup>2</sup> на суші та {{ssum}} м<sup>2</sup> на воді</p>
       </ion-item>
     </ion-card-content>
   </ion-card>
